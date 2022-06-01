@@ -35,4 +35,14 @@ link to see that.
 15. check on your repository if the file is added or not 
 Done!
 
-To remove a file wirte git rm --cached filename
+//To remove a file wirte git rm --cached filename
+
+To check branches: git branch
+To create a branch: git branch branchNo1
+To check the other branch: git checkout branchNo1
+To create the other branch in server/hub: git push --set-upstream origin branchNo1
+Then we can add a file with those 3 code (git add . , git commit –m “branchNo1 testing” , git push)
+To merge a branch with our main branch, first go to our main branch: git checkout main
+Then merge it: git merge branchNo1
+Then we have to push it: git push
+Done!
