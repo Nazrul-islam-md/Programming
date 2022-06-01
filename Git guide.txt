@@ -34,3 +34,5 @@ link to see that.
 14. then git push
 15. check on your repository if the file is added or not 
 Done!
+
+To remove a file wirte git rm --cached filename
