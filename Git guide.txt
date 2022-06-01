@@ -1,0 +1,36 @@
+1. Create a git account on github.com by giving a username, email and password
+2. Then select I am an Engineer and in Experience - A lot, use github for Learn to code, learn
+git and github, Host a project and I am interested in - html, css then complete setup
+3. Then select create a repository and give a repository name and click Create repository
+4. then install git bash on your desktop
+5. Enter the folder you want to work with github and write click then select git bash here
+6. On the git bash terminal, write this codes and enter after every code: 
+
+a) git config --global user.name "Nazrul"
+b) git config --global user.email "mohammadnazrulislam2k20@gmail.com"
+c) git init
+d) git clone url from the repository page (i.e git clone https://github.com/Nazrul-islam-md/Test.git)
+e) git status (it will show untracked file i.e Test/)
+f) cd Test
+g) git status
+h) If create a file(index.html), then again git status
+g) git add index.html or git add .
+h) git commit -m "adding index file"
+i) git push
+j) git status and then reload your repository tab on browser, you will find the file there
+k) if edited the file then again git status
+l) git add index.html
+m) git commit -m "modify something"
+n) git push
+
+7. reload the repository page and you will see the files uploaded from your folder
+8. Click settings or repository page and on github pages section, make the source master, root and save.
+9. on github pages section, you will find a link called, your site is ready to publish, click the
+link to see that.
+10. to upload new file for example abcd.html, on git bash, write git status, it will show untracked file
+11. then git add . or git add file name
+12. then git commit -m "adding new file"
+13. then git status, it will show your branch is ahead of by 1 commit
+14. then git push
+15. check on your repository if the file is added or not 
+Done!
